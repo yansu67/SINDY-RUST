@@ -89,7 +89,6 @@ In comparison to the original PySINDy (Python):
 ##  Roadmap
 - [ ] Phase 12: Advanced Differentiation (Savitzky-Golay, Spectral).
 - [ ] Phase 12: Standard ODE Examples (Lorenz, Rossler, etc.).
-- [ ] Python Bindings (PyO3).
 
 ## 📄 License
 
