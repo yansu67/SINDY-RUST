@@ -1,0 +1,11 @@
+/target
+/build_errors.txt
+/warnings.txt
+/release_test_output.txt
+/dev_test_output.txt
+/test.log
+/.idea
+/.vscode
+*.pdb
+*.exe
+/pysindy_src

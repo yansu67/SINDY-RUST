@@ -1,0 +1,32 @@
+[package]
+name = "sindy-rs"
+version = "0.1.0"
+edition = "2021"
+description = "Sparse Identification of Nonlinear Dynamical Systems (SINDy) — Rust port of PySINDy"
+license = "MIT"
+
+[dependencies]
+clarabel = "0.11.1"
+linfa-linalg = "0.2.1"
+ndarray = "0.16"
+num-traits = "0.2"
+rand = "0.8"
+serde_json = "1.0.149"
+thiserror = "2"
+
+[dev-dependencies]
+approx = "0.5"
+
+[profile.dev]
+debug = false
+split-debuginfo = "off"
+
+[profile.test]
+debug = false
+split-debuginfo = "off"
+
+[profile.dev.build-override]
+debug = false
+
+[profile.test.build-override]
+debug = false
