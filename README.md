@@ -1,4 +1,4 @@
-# sindy-rs 🦀
+# sindy-rust
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Rust](https://img.shields.io/badge/rust-1.70+-orange.svg)](https://www.rust-lang.org)
@@ -7,7 +7,7 @@
 
 ---
 
-## 🚀 Why sindy-rs?
+##  Why sindy-rs?
 
 - **Performance**: Up to 50x faster than Python for iterative optimizers and complex feature libraries.
 - **Concurrency**: Native support for multithreading (via Rayon) without GIL bottlenecks.
@@ -17,7 +17,7 @@
 
 ---
 
-## 🛠 Features
+##  Features
 
 ### Core Capabilities
 - ✅ **SINDy Model**: Full `fit`, `predict`, `score`, and `simulate` functionality.
@@ -41,7 +41,7 @@
 
 ---
 
-## 📦 Installation
+##  Installation
 
 Add this to your `Cargo.toml`:
 
@@ -53,7 +53,7 @@ ndarray = "0.16"
 
 ---
 
-## 💻 Quick Start
+##  Quick Start
 
 ```rust
 use sindy_rs::{SINDy, STLSQ, PolynomialLibrary};
@@ -78,7 +78,7 @@ fn main() {
 
 ---
 
-## 📊 Performance Benchmarks
+##  Performance Benchmarks
 
 In comparison to the original PySINDy (Python):
 - **SSR/FROLS**: 10x - 50x faster.
@@ -86,7 +86,7 @@ In comparison to the original PySINDy (Python):
 
 ---
 
-## 🏗 Roadmap
+##  Roadmap
 - [ ] Phase 12: Advanced Differentiation (Savitzky-Golay, Spectral).
 - [ ] Phase 12: Standard ODE Examples (Lorenz, Rossler, etc.).
 - [ ] Python Bindings (PyO3).
